@@ -204,7 +204,26 @@ text-align: center;
 .sponsor-compamies img{
 filter: grayscale(100%);
 }
+/* footer section styles */
+.footer-section{ 
+    max-width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 8px;
+    margin-top: 141px;
+    margin-bottom: 10px;
 
+background: rgb(255, 244, 231);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.footer-text{
+    font-size: 1.25rem;
+    font-weight: 400;
+
+    text-align: center;
+}
 /* responsive media query */
 @media screen and (max-width: 576px) {
     .navbar,
